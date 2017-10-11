@@ -97,6 +97,10 @@
       <Name>Employee.dmm</Name>
       <FullPath>Employee.dmm</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>OHL Data.dmm</Name>
+      <FullPath>OHL Data.dmm</FullPath>
+    </ProjectItem>
   </MiningModels>
   <Configurations>
     <Configuration>
@@ -106,7 +110,7 @@
           <ConfigurationSetting>
             <Id>OHL Data</Id>
             <Name>OHL Data</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=med-pc037;Persist Security Info=True;Password=;User ID=;Initial Catalog=ohl_data</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=emina-pc;Persist Security Info=True;Password=;User ID=;Initial Catalog=ohl_data</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

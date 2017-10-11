@@ -3,12 +3,12 @@
   <Name>OHL Data</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-  <ConnectionString>Provider=SQLNCLI11.1;Data Source=med-pc037;Persist Security Info=True;Password=;User ID=;Initial Catalog=ohl_data</ConnectionString>
+  <ConnectionString>Provider=SQLNCLI11.1;Data Source=emina-pc;Persist Security Info=True;Password=;User ID=;Initial Catalog=ohl_data</ConnectionString>
   <ConnectionStringSecurity>PasswordRemoved</ConnectionStringSecurity>
   <ImpersonationInfo>
     <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
     <Account>MEDIT\Emina_S</Account>
-    <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
+    <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
   </ImpersonationInfo>
   <Timeout>PT0S</Timeout>
 </DataSource>
