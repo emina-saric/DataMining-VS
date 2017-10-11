@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DataMining-HearingAids", "DataMining-HearingAids\DataMining-HearingAids.dwproj", "{FDF5F72E-4067-41F5-86FA-3DC464520224}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDF5F72E-4067-41F5-86FA-3DC464520224}.Development|Default.ActiveCfg = Development
+		{FDF5F72E-4067-41F5-86FA-3DC464520224}.Development|Default.Build.0 = Development
+		{FDF5F72E-4067-41F5-86FA-3DC464520224}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A732FFA2-B0DC-4B6C-A3C5-2440A864470E}
+	EndGlobalSection
+EndGlobal

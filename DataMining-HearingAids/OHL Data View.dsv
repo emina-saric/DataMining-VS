@@ -1,0 +1,133 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c7f47929-6085-4898-98aa-2820af2a89cd" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>OHL Data View</ID>
+  <Name>OHL Data View</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>OHL Data</DataSourceID>
+  <Schema>
+    <xs:schema id="OHL_x0020_Data_x0020_View" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="OHL_x0020_Data_x0020_View" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="3f8c643d-4a24-4378-a7e2-c66f86fb8f8b">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_OHLData" msprop:design-time-name="9e5c32ab-d342-4d06-af9a-4ccf7fdbff80" msprop:DbTableName="OHLData" msprop:FriendlyName="OHLData" msprop:DbSchemaName="dbo" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="OHLDataID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:design-time-name="08b540ff-500a-481d-8cbf-959a679720f9" msprop:DbColumnName="OHLDataID" msprop:FriendlyName="OHLDataID" type="xs:int" />
+                  <xs:element name="TestDate" msprop:design-time-name="364c4716-30bc-4451-bf56-24c0728940a7" msprop:DbColumnName="TestDate" msprop:FriendlyName="TestDate" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Nid" msprop:design-time-name="b2df4a4c-0b7f-4e3c-ace4-c0f7d82c2ca9" msprop:DbColumnName="Nid" msprop:FriendlyName="Nid" type="xs:int" minOccurs="0" />
+                  <xs:element name="L500" msprop:design-time-name="8332b41c-1a9e-48f7-9c15-7b4699dd084c" msprop:DbColumnName="L500" msprop:FriendlyName="L500" type="xs:int" minOccurs="0" />
+                  <xs:element name="L1k" msprop:design-time-name="fab05625-efb6-4d21-9eb0-cb8932424cd3" msprop:DbColumnName="L1k" msprop:FriendlyName="L1k" type="xs:int" minOccurs="0" />
+                  <xs:element name="L2k" msprop:design-time-name="47b70ece-1e5d-4fb5-bf85-01929258d728" msprop:DbColumnName="L2k" msprop:FriendlyName="L2k" type="xs:int" minOccurs="0" />
+                  <xs:element name="L3k" msprop:design-time-name="a4e36eef-3337-4232-b033-a5825b7467bd" msprop:DbColumnName="L3k" msprop:FriendlyName="L3k" type="xs:int" minOccurs="0" />
+                  <xs:element name="L4k" msprop:design-time-name="e66a5c70-5045-4500-b460-a4e9c69dac40" msprop:DbColumnName="L4k" msprop:FriendlyName="L4k" type="xs:int" minOccurs="0" />
+                  <xs:element name="L6k" msprop:design-time-name="90f10262-0834-4a72-82ec-ff3759d81bfc" msprop:DbColumnName="L6k" msprop:FriendlyName="L6k" type="xs:int" minOccurs="0" />
+                  <xs:element name="L8k" msprop:design-time-name="d91d0984-9cb2-4368-902c-29bb7666d579" msprop:DbColumnName="L8k" msprop:FriendlyName="L8k" type="xs:int" minOccurs="0" />
+                  <xs:element name="R500" msprop:design-time-name="5ad0fb46-4867-42d8-8724-5229b6f5f000" msprop:DbColumnName="R500" msprop:FriendlyName="R500" type="xs:int" minOccurs="0" />
+                  <xs:element name="R1k" msprop:design-time-name="db1e2953-32b2-4657-a0e6-7c7bd709fe67" msprop:DbColumnName="R1k" msprop:FriendlyName="R1k" type="xs:int" minOccurs="0" />
+                  <xs:element name="R2k" msprop:design-time-name="cba2a70e-c38c-4a37-ada1-8c6536de7f7f" msprop:DbColumnName="R2k" msprop:FriendlyName="R2k" type="xs:int" minOccurs="0" />
+                  <xs:element name="R3k" msprop:design-time-name="23d52ad1-a786-4056-8a4a-5cb1dc94b05f" msprop:DbColumnName="R3k" msprop:FriendlyName="R3k" type="xs:int" minOccurs="0" />
+                  <xs:element name="R4k" msprop:design-time-name="d7a7afd4-93a6-414c-8979-28a99513df4f" msprop:DbColumnName="R4k" msprop:FriendlyName="R4k" type="xs:int" minOccurs="0" />
+                  <xs:element name="R6k" msprop:design-time-name="0adef39c-b2ed-4bc4-8329-38967a9b723c" msprop:DbColumnName="R6k" msprop:FriendlyName="R6k" type="xs:int" minOccurs="0" />
+                  <xs:element name="R8k" msprop:design-time-name="c7421ee5-65ba-4c5a-9338-c057d3620719" msprop:DbColumnName="R8k" msprop:FriendlyName="R8k" type="xs:int" minOccurs="0" />
+                  <xs:element name="Gender" msprop:design-time-name="9f917bc4-4f9f-48c8-9443-a4a529bd18af" msprop:DbColumnName="Gender" msprop:FriendlyName="Gender" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="1" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Naics" msprop:design-time-name="01bb62c1-e798-4e3a-b329-a6864537bc40" msprop:DbColumnName="Naics" msprop:FriendlyName="Naics" type="xs:int" minOccurs="0" />
+                  <xs:element name="NaicsDesc" msprop:design-time-name="5bf0a0d8-de27-40cf-a072-6db193d68468" msprop:DbColumnName="NaicsDesc" msprop:FriendlyName="NaicsDesc" type="xs:string" minOccurs="0" />
+                  <xs:element name="AgeGroup" msprop:design-time-name="4071f0cf-3e50-4f1f-846e-7598e2441d67" msprop:DbColumnName="AgeGroup" msprop:FriendlyName="AgeGroup" type="xs:int" minOccurs="0" />
+                  <xs:element name="Region" msprop:design-time-name="fb7d26b8-e787-4fcb-9231-8e44e163844b" msprop:DbColumnName="Region" msprop:FriendlyName="Region" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="100" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AidShape" msprop:design-time-name="c1ac255b-e8ee-42ba-aa28-f2f62a49cf68" msprop:DbColumnName="AidShape" msprop:FriendlyName="AidShape" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="10" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="FittingFormula" msprop:design-time-name="0a742f3c-ae1b-4ed5-97ea-e398339486eb" msprop:DbColumnName="FittingFormula" msprop:FriendlyName="FittingFormula" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="NumberOfChannels" msprop:design-time-name="23165211-6584-4101-8c2a-37aa7dd9106a" msprop:DbColumnName="NumberOfChannels" msprop:FriendlyName="NumberOfChannels" type="xs:int" minOccurs="0" />
+                  <xs:element name="Brand" msprop:design-time-name="0df07815-e4f5-4d8f-9bbc-85310c37c9c4" msprop:DbColumnName="Brand" msprop:FriendlyName="Brand" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="AidName" msprop:design-time-name="08d32200-af23-475a-93d3-958b727ceb54" msprop:DbColumnName="AidName" msprop:FriendlyName="AidName" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_OHLData" />
+          <xs:field xpath="OHLDataID" />
+        </xs:unique>
+      </xs:element>
+    </xs:schema>
+    <OHL_x0020_Data_x0020_View xmlns="" />
+  </Schema>
+</DataSourceView>
