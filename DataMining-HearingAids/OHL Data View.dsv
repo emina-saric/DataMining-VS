@@ -27,9 +27,9 @@
             <Name>_ALL_TABLES_</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6281" scrolltop="-6475" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="16632" y="17951" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-6281" scrolltop="-6475" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="26961" y="18071" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
-                    <ddsxmlobjectstreamwrapper binary="01ee0000900185440100065461686f6d61" />
+                    <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
                   <mouseicon>
                     <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
@@ -38,7 +38,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="OHLData" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4030" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="OHLData" left="0" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4030" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000c0000be0f000088130000" />
                   </control>
@@ -141,7 +141,28 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Out_R500" msprop:DbColumnName="Out_R500" msprop:design-time-name="62ffa7fd-9c15-431f-a637-ad67bd97c46d" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_R500" msprop:design-time-name="62ffa7fd-9c15-431f-a637-ad67bd97c46d" msprop:DbColumnName="Out_R500" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_R1k" msprop:DbColumnName="Out_R1k" msprop:design-time-name="b25e8eb1-c570-4ba9-adc1-4c5cb02ddc40" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_R2k" msprop:DbColumnName="Out_R2k" msprop:design-time-name="7f6e664b-c48b-45bc-8128-3009afcccdcd" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_R3k" msprop:DbColumnName="Out_R3k" msprop:design-time-name="4ab8c269-146d-4ea3-93e3-7a5099b109df" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_R4k" msprop:DbColumnName="Out_R4k" msprop:design-time-name="ca5776a2-ef72-4252-8b9e-ed5443978d40" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_R6k" msprop:DbColumnName="Out_R6k" msprop:design-time-name="3a5ea894-7049-43bd-996c-c54b6f55eaf2" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_R8k" msprop:DbColumnName="Out_R8k" msprop:design-time-name="16c36958-4932-4713-a57b-dcba9277a805" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_L500" msprop:DbColumnName="Out_L500" msprop:design-time-name="2004bbb8-3aeb-43b9-8060-26f69fa47e0c" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_L1k" msprop:DbColumnName="Out_L1k" msprop:design-time-name="07e91a81-de51-45bc-adb5-6a795188bd75" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_L2k" msprop:DbColumnName="Out_L2k" msprop:design-time-name="44b531b8-474b-479e-a1a5-2ff23f19709e" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_L3k" msprop:DbColumnName="Out_L3k" msprop:design-time-name="9ee43b5f-523d-4794-90cd-ba988e36f058" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_L4k" msprop:DbColumnName="Out_L4k" msprop:design-time-name="a1970116-4d23-4b75-b029-c01c266e0819" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_L6k" msprop:DbColumnName="Out_L6k" msprop:design-time-name="1e9c10ab-ae0d-491a-814e-532c9a4183dd" type="xs:int" minOccurs="0" />
+                  <xs:element name="Out_L8k" msprop:DbColumnName="Out_L8k" msprop:design-time-name="0ba80694-9c48-4d12-bce7-a1e70ef9cce2" type="xs:int" minOccurs="0" />
+                  <xs:element name="OliveType" msprop:DbColumnName="OliveType" msprop:design-time-name="129497a2-b0fe-457b-99ba-c08c58eea855" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="ApertureSize" msprop:DbColumnName="ApertureSize" msprop:design-time-name="80ae909d-20c7-406f-9b6b-9438a20a1c9f" type="xs:int" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>

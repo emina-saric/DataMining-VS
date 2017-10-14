@@ -6,76 +6,6 @@
     <Name>DataMining-HearingAids.database</Name>
     <FullPath>DataMining-HearingAids.database</FullPath>
   </Database>
-  <Cubes>
-    <ProjectItem>
-      <Name>Adventure Works.cube</Name>
-      <FullPath>Adventure Works.cube</FullPath>
-      <Dependencies>
-        <ProjectItem>
-          <Name>Adventure Works.partitions</Name>
-          <FullPath>Adventure Works.partitions</FullPath>
-        </ProjectItem>
-      </Dependencies>
-    </ProjectItem>
-  </Cubes>
-  <Dimensions>
-    <ProjectItem>
-      <Name>Product.dim</Name>
-      <FullPath>Product.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Sales Reason.dim</Name>
-      <FullPath>Sales Reason.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Geography.dim</Name>
-      <FullPath>Geography.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Internet Sales Order Details.dim</Name>
-      <FullPath>Internet Sales Order Details.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Reseller Sales Order Details.dim</Name>
-      <FullPath>Reseller Sales Order Details.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Sales Summary Order Details.dim</Name>
-      <FullPath>Sales Summary Order Details.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Employee.dim</Name>
-      <FullPath>Employee.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Reseller.dim</Name>
-      <FullPath>Reseller.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Date.dim</Name>
-      <FullPath>Date.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Sales Channel.dim</Name>
-      <FullPath>Sales Channel.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Sales Territory.dim</Name>
-      <FullPath>Sales Territory.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Source Currency.dim</Name>
-      <FullPath>Source Currency.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Promotion.dim</Name>
-      <FullPath>Promotion.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Customer.dim</Name>
-      <FullPath>Customer.dim</FullPath>
-    </ProjectItem>
-  </Dimensions>
   <DataSources>
     <ProjectItem>
       <Name>OHL Data.ds</Name>
@@ -87,19 +17,15 @@
       <Name>OHL Data View.dsv</Name>
       <FullPath>OHL Data View.dsv</FullPath>
     </ProjectItem>
-    <ProjectItem>
-      <Name>Adventure Works View.dsv</Name>
-      <FullPath>Adventure Works View.dsv</FullPath>
-    </ProjectItem>
   </DataSourceViews>
   <MiningModels>
     <ProjectItem>
-      <Name>Employee.dmm</Name>
-      <FullPath>Employee.dmm</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>OHL Data.dmm</Name>
       <FullPath>OHL Data.dmm</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>OHL Data 1.dmm</Name>
+      <FullPath>OHL Data 1.dmm</FullPath>
     </ProjectItem>
   </MiningModels>
   <Configurations>
@@ -110,14 +36,14 @@
           <ConfigurationSetting>
             <Id>OHL Data</Id>
             <Name>OHL Data</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=emina-pc;Persist Security Info=True;Password=;User ID=;Initial Catalog=ohl_data</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI11.1;Data Source=localhost;Integrated Security=SSPI;Initial Catalog=ohl_data</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>
           <ConfigurationSetting>
             <Id>OHL Data</Id>
             <Name>OHL Data</Name>
-            <Value xsi:type="xsd:int">1</Value>
+            <Value xsi:type="xsd:int">0</Value>
           </ConfigurationSetting>
         </ConnectionSecurityMappings>
       </Options>
