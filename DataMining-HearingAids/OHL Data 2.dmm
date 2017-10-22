@@ -1,6 +1,6 @@
-﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9e22986d-7740-487f-99da-4ccd2a225f98" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
-  <ID>OHL Data 1</ID>
-  <Name>OHL Data 1</Name>
+﻿<MiningStructure xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1cb0b0f4-ae14-42d9-952b-564b0177b145" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>OHL Data 2</ID>
+  <Name>OHL Data 2</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
   <Annotations>
@@ -16,7 +16,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11053" scrolltop="-5821" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="25797" y="11404" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-11053" scrolltop="-3944" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="25797" y="11404" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -27,7 +27,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="OHLData" left="-456" top="-3335" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3651" height="8414" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="OHLData" left="-456" top="-3335" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3651" height="8414" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000c0000430e0000de200000" />
             </control>
@@ -55,7 +55,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
-      <Value>-5821</Value>
+      <Value>-3944</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
@@ -72,645 +72,645 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c39d5229-4935-4494-a599-29af65b3f3c4">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="1073c66e-08bc-4e56-a780-a0e22ed7ca47">
     <DataSourceViewID>OHL Data View</DataSourceViewID>
   </Source>
   <Columns>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="8f5f799b-4ef3-448a-b55c-1ac45dc0beb1">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="79b1c937-25a7-4225-9645-76d039ae5647">
       <ID>Age Group</ID>
       <Name>Age Group</Name>
       <Type>Long</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e6d30611-6149-45e8-b5b9-f0b1068dbc4b">
+        <KeyColumn dwd:design-time-name="da8d8ed5-5e2d-448a-b0f5-082b369c7e73">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2c7541ee-bf55-45a3-8fc2-a33c95ae6f84">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22c182c9-c7ba-4f2b-bf78-958bcdd3763a">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>AgeGroup</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="166588f7-d29c-4e32-addf-3ea6f9e506f0">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="eda7b0e4-79ed-4cc6-b949-4d9e7d119ec9">
       <ID>Aid Name</ID>
       <Name>Aid Name</Name>
       <Type>Text</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="603f018d-0eb4-4a8a-8933-4d0d1a41cf24">
+        <KeyColumn dwd:design-time-name="96f3f19c-6259-4b7e-9931-e4b4860e14c1">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="61af39aa-53e8-44dd-a2e7-b855ce31678e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="08848106-1892-4222-b253-ef63ae2061da">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>AidName</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="1bd3c296-5580-4013-b6b9-72cc51136b37">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="54e81543-9ff1-49e2-83f0-97f286251284">
       <ID>Aid Shape</ID>
       <Name>Aid Shape</Name>
       <Type>Text</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0f986cbe-a499-4dc1-b0ff-589a065aa879">
+        <KeyColumn dwd:design-time-name="068e1ed9-1037-4f1f-beba-044ba7958ef6">
           <DataType>WChar</DataType>
           <DataSize>10</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="524c3933-7f80-4d53-b7d8-d40b8c9bebeb">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="37ea1e10-f935-4df5-a416-e56c8f20bd0a">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>AidShape</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7c5cafdb-af01-4108-a483-104ce47373ae">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0ab11aef-880c-4aad-b344-fd9bca5bb80f">
       <ID>Brand</ID>
       <Name>Brand</Name>
       <Type>Text</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="98941112-7d89-4125-8099-ac449781bd9b">
+        <KeyColumn dwd:design-time-name="30daec41-6056-43dc-8dd8-1ebfd2e199ec">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f835d51a-ad07-4462-8225-a666026ed598">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b47d004-d435-46c6-b4d3-010b5b446221">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Brand</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="4a919ae6-498b-4042-85b7-011e9899706d">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="be1c516e-d0d3-4707-85e1-4fe181fab370">
       <ID>Fitting Formula</ID>
       <Name>Fitting Formula</Name>
       <Type>Text</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9487ac26-370c-4305-8f4c-485b38d5590d">
+        <KeyColumn dwd:design-time-name="7a97f683-3dff-40fb-9d20-a2fcca8211b0">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5a7fa533-eceb-487c-8cc7-8db25b922696">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d115391-3bc1-48c1-8800-a34da9c44592">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>FittingFormula</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="31c04b46-48ed-41b3-b251-19d7f0fc52f7">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0f1b6bb8-7f90-4326-9af1-f1525f9961df">
       <ID>Gender</ID>
       <Name>Gender</Name>
       <Type>Text</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="85f6e4af-3ab3-41b9-9e84-f08ab6a9d070">
+        <KeyColumn dwd:design-time-name="5dc53619-b6a1-4356-9a15-009d7e4ba1de">
           <DataType>WChar</DataType>
           <DataSize>1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="b7bd6610-fa17-4fc7-8af9-f5627fe5e6b7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2eb34339-f889-49a5-9dbc-059e303cb1e6">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Gender</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="e926ea80-324b-4e7f-ac5d-63055b03ee37">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3c898c10-5720-40c5-a555-470648997bc2">
       <ID>L1k</ID>
       <Name>L1k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4ca5b003-c216-492a-988c-2ac5e9ef481f">
+        <KeyColumn dwd:design-time-name="00348371-4508-47fe-ae82-3d45b51d6977">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="8e7f00c7-8f0c-437a-ab8d-adc531690ffa">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4567260b-960b-4fc4-a48f-c14027c37d7e">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>L1k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="cc31a1ff-88e8-4d48-98b3-1bbf43a4c21e">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ce931c11-a231-400a-910c-01a4c6034b1c">
       <ID>L2k</ID>
       <Name>L2k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1130a5fc-caca-4f32-90f0-c740dad639ad">
+        <KeyColumn dwd:design-time-name="60fb263f-7384-44de-b757-8f8db656569b">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cde2576b-9535-4687-9171-f5b7dbf22ede">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9cae19f0-a333-4192-8d9a-fda20afe35da">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>L2k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3bebed0a-3fe4-49fe-aa20-6f80baa5d402">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="f898d052-78f1-41fd-afb2-e797795fa55d">
       <ID>L3k</ID>
       <Name>L3k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3a19218e-af98-4b43-9439-8d9f9e3a9a48">
+        <KeyColumn dwd:design-time-name="61f57629-85e3-4b93-a092-604fcb1f05cd">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="28b24f4a-6cab-4795-b36c-f83d060fe3e5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1ed8f5a5-6098-4f31-952a-82249eaec5a5">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>L3k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="65e79de9-40c2-441c-83a5-5ac90a0475fa">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="6e458635-b1b4-4a0b-916b-4f686d8be8e9">
       <ID>L4k</ID>
       <Name>L4k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b5b00319-fd02-40cf-bafe-ce9a91cc2e7b">
+        <KeyColumn dwd:design-time-name="9aa2ad25-0c8f-486f-847a-82796d1400bf">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d79f9a7c-5d2a-47f9-be02-55b226593c00">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="792acfee-07e3-4e43-a07a-8133b8562073">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>L4k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="9931a142-2866-45fa-9ee5-e853bf6f2142">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="24439dad-3ed0-490e-a85c-444d316927f1">
       <ID>L500</ID>
       <Name>L500</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a28ee2bb-d231-4b7b-bf7f-27e71cd22662">
+        <KeyColumn dwd:design-time-name="586af464-e22e-4866-a44c-55fe52cad938">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="56cf5dc0-3a8e-4a3c-aa99-f922cc5a51b0">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6d83b8ce-c374-4006-aacd-c781a266b309">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>L500</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="be7099d2-bf46-4f1a-a5a5-7b62ed7524d0">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="4708b4c3-a495-4005-b66f-fc56de241aab">
       <ID>L6k</ID>
       <Name>L6k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3abe0082-5a3b-4656-87df-d0f6a10e6047">
+        <KeyColumn dwd:design-time-name="65e453d4-283f-48c4-9fc6-3986d1ba44b2">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f5d1ffad-7b2e-4ec1-af5f-6b0b521304ff">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5b2a6c63-2a5e-45bd-9d61-48df4382747d">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>L6k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7444bf2e-37be-4d65-806b-12a3a61b491d">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c6d5a318-9b7a-44be-ae4a-c1e628b53d6b">
       <ID>L8k</ID>
       <Name>L8k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="468b6abc-ef4e-4c26-abc1-6b5a2337c0d0">
+        <KeyColumn dwd:design-time-name="75cc0d1d-b5d9-4a96-aed7-384971069538">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0acb0810-5d1d-49a0-9ccd-64feb40e1679">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2b2c8d47-349b-4cf2-b21e-08c009dd7e73">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>L8k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b0e3e29e-e2dd-4108-9d39-875491e3c1f3">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b04c882a-5edd-493c-8e50-301d3056b8a0">
       <ID>Naics Desc</ID>
       <Name>Naics Desc</Name>
       <Type>Text</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="15ab0563-bedb-468e-bbfe-8add9851310f">
+        <KeyColumn dwd:design-time-name="0ee755a7-e065-4282-a818-79910052630f">
           <DataType>WChar</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="11567802-979a-4568-9c25-ef6c436faa03">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7d19dad6-822a-4286-b18c-41162aee5d6f">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>NaicsDesc</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="abfff8d7-3aeb-42d8-8bf3-d0c94de62ee7">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="df7c74c9-1a97-4fb0-9a5e-2cc1fb8c1056">
       <ID>Number Of Channels</ID>
       <Name>Number Of Channels</Name>
       <Type>Long</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="095e5951-9258-45b8-903a-b1eed95ff612">
+        <KeyColumn dwd:design-time-name="de20f9e3-f439-408c-945e-fe293fb7b3d2">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4afcc176-1d6d-426b-95bf-14ee535d56bd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7260bbb6-4f43-404d-8fe2-6f9a1553dcb0">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>NumberOfChannels</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0235c382-3f75-4473-96d0-895cc290902c">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="bfaca61f-2db5-4bd1-899a-c18a38848629">
       <ID>OHL Data ID</ID>
       <Name>OHL Data ID</Name>
       <IsKey>true</IsKey>
       <Type>Long</Type>
       <Content>Key</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0ad98b11-5992-4b9c-a6f8-c757d55946f6">
+        <KeyColumn dwd:design-time-name="4757ef3b-0a2a-448b-a560-bf3d368e23d2">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1a336406-42bd-4f24-93e4-3197b4f7d239">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="56b40265-df70-4440-9c84-179a58baf825">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>OHLDataID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="f2237cca-2160-461a-9233-6928458a92bc">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0eb59e99-7ab2-4b23-9ca4-a1e133274218">
       <ID>Out R500</ID>
       <Name>Out R500</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="abdada9d-369c-4bf1-9aa4-f4f04790639a">
+        <KeyColumn dwd:design-time-name="5e04383e-7eeb-4162-8f59-0a7e060e679a">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bca6081c-81f9-4ed8-8ee8-9cb1550ffbc4">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a7b17ec4-471a-4015-8a66-bc8f3784f5d0">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_R500</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="de31579e-6c4f-4175-a26b-a2c6d027be37">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="9075d1e2-e63a-40e2-a21e-312bc236b7be">
       <ID>R1k</ID>
       <Name>R1k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="646377bc-6b61-4d34-aabc-9950dfcfa3f8">
+        <KeyColumn dwd:design-time-name="9b7083c3-ca10-48ae-a1b7-f000f64ed716">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="eb6bdf83-0ee3-4aa1-8949-229c3474d409">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a08d9abd-2816-4313-b5c0-2d90574b64e0">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>R1k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="d6c15b56-11b1-455a-98a9-766eba2647fc">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="bf64c877-9189-40c5-9a71-c0608de2cdb1">
       <ID>R2k</ID>
       <Name>R2k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="41960591-0fc2-4dfd-a4c7-5c59f1faee2f">
+        <KeyColumn dwd:design-time-name="03c0ab12-2684-4461-887d-193dee72c211">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="186a702e-46ce-4998-ae58-c32bba07df44">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e3af8874-00aa-41e4-8da0-26560f80e7ec">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>R2k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="c256817d-41e6-4dc3-8739-c4f7622a1a1c">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7ba91921-64b5-41c0-abd1-f0b378fd687f">
       <ID>R3k</ID>
       <Name>R3k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ec79f4e6-f757-411b-be96-6f936f870970">
+        <KeyColumn dwd:design-time-name="238bfffc-5975-46ae-9e00-93a350f2ec54">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a87a9d0b-19df-4abc-8706-bae77afd330d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="5f048a72-c1e6-4391-8fad-40beda4d16ed">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>R3k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="b9ab9da6-0ea4-4b78-a8a4-e9a5e34f6e65">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="cfe0382b-197d-4c0f-ac28-da3c62d980fb">
       <ID>R4k</ID>
       <Name>R4k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="90264419-5fda-4e76-8097-0d7e684ba6a3">
+        <KeyColumn dwd:design-time-name="c578c904-7a65-44e8-a449-e91ae3acc7b4">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d1bf1062-33d6-4edc-be07-f2da12025e14">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7c5ad7bc-1393-4987-b662-cacb0cb45b8d">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>R4k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="9ba2114d-62f3-4151-a7cc-de7347087868">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="79ea1741-d3e3-4715-bffb-4e3c8ab949ca">
       <ID>R500</ID>
       <Name>R500</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b961c967-ec95-4b4c-bd06-1f96bd097667">
+        <KeyColumn dwd:design-time-name="e4863731-9a6d-4389-9ae3-d146f40f70e2">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="922a15be-b5c4-4f2e-9c85-53c695654a46">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="628f11b3-e4eb-4fc6-966e-a8e854c5e1f5">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>R500</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="d05ea2d0-29e0-4ae4-8133-bd58bd289804">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="daee7c42-21b2-4d1d-b71d-3d71558eb817">
       <ID>R6k</ID>
       <Name>R6k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="399493f1-f7fa-4729-a9d8-03ebad25b167">
+        <KeyColumn dwd:design-time-name="efa9c7a6-2c8e-4c49-bd4f-47516b0e79aa">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0e24801b-0290-4a93-a641-e070b363079e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="666b85db-2a09-4081-a192-5846ac2341a1">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>R6k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="98435ce8-58c2-40bb-928d-957bf4e9953d">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5e1bc1cd-eec7-44c1-8403-7dc04b5c4e21">
       <ID>R8k</ID>
       <Name>R8k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3885b5a6-3467-48d2-a282-6e5f5e9f37b6">
+        <KeyColumn dwd:design-time-name="bbf6eef5-9245-4f3f-883f-31325c5073f1">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="89544ac8-d4f9-4df7-a8bd-364fc2bbe02b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="44534453-3f8e-41b9-bfd2-09c24c09470c">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>R8k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3bd0417c-5ddf-4fb4-aa74-255340f19f5a">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="6c837457-d34d-429a-a400-b5e4b50ad3d2">
       <ID>Region</ID>
       <Name>Region</Name>
       <Type>Text</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e1e0a26f-8170-40c5-8920-2f08c37fcb88">
+        <KeyColumn dwd:design-time-name="ff47f5a8-ac3a-489b-92a6-beab38028508">
           <DataType>WChar</DataType>
           <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="819b5f9f-5791-43e3-9dbc-d4669903a407">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9b764e6e-ad05-4827-b242-e6bfdfc6afa4">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Region</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="110310c4-5eb2-4c5a-a685-f9e882da699b">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="7ae35e66-6794-4b57-9764-60b1fe9e4528">
       <ID>Aperture Size</ID>
       <Name>Aperture Size</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="df3b627b-77c4-46b0-9617-b3b83115b831">
+        <KeyColumn dwd:design-time-name="9d892d39-e31c-4408-a56a-0b3ed02c07b0">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2053c960-e9f8-42f8-93a2-72980be1804b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="eccd7076-faf9-4676-9520-9cd8bc891ddc">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>ApertureSize</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="50f6f3e0-3578-48ce-9461-968520556037">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="be338342-1efa-43e1-a64a-126a52b68b3f">
       <ID>Olive Type</ID>
       <Name>Olive Type</Name>
       <Type>Text</Type>
       <Content>Discrete</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0286462d-5045-47bf-922b-154830080dc0">
+        <KeyColumn dwd:design-time-name="3ea2542d-6e94-4cf8-961a-1961ed6a790e">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="1a132890-19df-41bf-9407-291d4f272241">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="02b024a2-a50a-45e1-8cde-5ff03329489b">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>OliveType</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="fa62c1f7-c65b-495a-9671-f8b41db75d59">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="e42001d2-79bc-4f8d-b332-644a83b75bb0">
       <ID>Out L8k</ID>
       <Name>Out L8k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="65c380a3-67dc-4206-8789-3479d75fe68d">
+        <KeyColumn dwd:design-time-name="a1baf3ea-8adb-420f-b203-4bb3f3a8a254">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="06925f83-e681-45bc-858f-86e746825bd3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="152216f0-3f51-439a-9c9c-9db07899ec9b">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_L8k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="9e9263c9-2ca6-419f-aa12-8f9b9b8f992c">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="e9a19893-e51e-4300-bde6-aa91df8775ef">
       <ID>Out L6k</ID>
       <Name>Out L6k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1b78805a-69b3-4d0c-8461-ef3837b3cd28">
+        <KeyColumn dwd:design-time-name="4a9f4342-83c8-4909-93df-d606d2c1577a">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="89f7a949-5a74-41d3-95d5-8102cbe0a3e8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6cf3ebe8-a367-4fd8-959f-54599cb6562e">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_L6k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ec5eb792-b717-4293-95c8-2e4cf7a75662">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="ac5a3789-830a-4720-b44a-cb624cb24942">
       <ID>Out L4k</ID>
       <Name>Out L4k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c84cf0da-1f61-49bb-a966-49ebcb0d8b41">
+        <KeyColumn dwd:design-time-name="28a2e111-abce-4754-9706-b271a834327e">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f5c2a15f-07f9-41dd-90a6-76d2869baecc">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="aa3b7de7-3779-4c5e-aa97-065707f97224">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_L4k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="99c29967-88b1-4807-a0c4-05ddd2b87bcd">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="099bc66f-92ec-4217-8560-42908f8554e5">
       <ID>Out L3k</ID>
       <Name>Out L3k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="26ba2b0c-88cd-46ad-928b-e68ce3df6fa5">
+        <KeyColumn dwd:design-time-name="0f629890-ca69-4c93-afe5-38591c0cf509">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="10bd6911-4fb5-4545-9eac-b091d0ace8ba">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="826afe4b-fd49-47f6-9397-8dddf44494fc">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_L3k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="13de3a5d-e9d9-4246-9819-07a0e830be7b">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="0fe6701f-9994-4882-b209-4bbf97e521a6">
       <ID>Out L2k</ID>
       <Name>Out L2k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3b3dcf0d-65d7-4441-ace2-69a77c60b77e">
+        <KeyColumn dwd:design-time-name="599bd3ec-917d-474b-a6c1-80d73cfef6ba">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="209d0989-8421-4be6-b57f-0f8217e2ad64">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e4d7402d-d6c7-461a-894a-5593ffbe241e">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_L2k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="43559804-0f65-4100-a9d4-9630b35f24a9">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="448d9be3-9d58-480a-990a-3d7a3b2c2cfd">
       <ID>Out L1k</ID>
       <Name>Out L1k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="83a2b177-54f5-43c6-a6b0-b8cf413bb97f">
+        <KeyColumn dwd:design-time-name="071b1dda-8820-4e1d-8029-2052043d4f72">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="5759317a-0dc5-4733-b462-b413415f7c55">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a68ebfc1-73d4-41c1-8d4e-bb33d9906eb4">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_L1k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="d911533f-8045-4ec6-8274-fe7b5d3dc9ba">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="fc81be2c-b6a5-4f90-a3c0-5198eb1beeaf">
       <ID>Out L500</ID>
       <Name>Out L500</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="096100bd-4a6f-4978-9e88-cfcee636f322">
+        <KeyColumn dwd:design-time-name="ba26745e-25e0-42fc-a9ab-ba8c380f70e4">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="eb9efb18-a481-43b5-8647-a4ea6e9882c5">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8d920915-2759-48c7-8922-474fa7ab75b2">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_L500</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="84e04ea9-8fb6-46fb-b4f3-0c8ed575eb22">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="da2eceb9-e54c-4c56-9f6f-310a708ef56c">
       <ID>Out R8k</ID>
       <Name>Out R8k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="54fd1b47-7517-414e-9d96-c67fed600ed8">
+        <KeyColumn dwd:design-time-name="09ff2005-18dd-401c-a401-2036249203d1">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3aad01f7-c466-43a3-9530-5fb7416875a2">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="097e41f8-17ea-479a-a479-af9bb821add1">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_R8k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="08a52639-c711-4998-b6bd-0e4bda0db402">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="3e134e5b-3eb5-47d6-9565-f0b35dbd26bf">
       <ID>Out R6k</ID>
       <Name>Out R6k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4f793846-1b78-4ea7-9e19-a50cb3aa8d17">
+        <KeyColumn dwd:design-time-name="3b2202b4-008e-41b1-9240-4c4ac0c7fc49">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="7a8c3569-74ce-4a6e-affb-cfa9a69060f1">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d198722b-6c19-4f66-868c-7e8eef182c4b">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_R6k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5419c240-054b-4616-819e-652b3953c5c3">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="5868f5c9-1389-42aa-90bf-f8ad095edee3">
       <ID>Out R4k</ID>
       <Name>Out R4k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c34e3d68-5387-4bcf-89b1-0c6049a38ef8">
+        <KeyColumn dwd:design-time-name="01a39c0a-acd8-4441-998d-0254016c0a2c">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bf6b6559-0740-4ec9-888b-5a1986580794">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f853d064-d18d-4112-9991-d68d494efde1">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_R4k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="8e16fd2d-6348-4e39-b4d1-2d21b4f91db8">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="76eaa7b3-b43b-4b0c-8847-faf006aaddf4">
       <ID>Out R3k</ID>
       <Name>Out R3k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="98673c5f-de90-481e-a975-c1be42f2621c">
+        <KeyColumn dwd:design-time-name="362c4086-6d25-4ef7-ac6d-1dfaae596545">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4fc8ba6f-53ea-4a67-a8c9-30b2e723f1ee">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce582ca0-aaa1-44b1-9e05-9524b65019ce">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_R3k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="8eacb0e6-66d4-43b9-badd-c4bba1852d30">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="aa615277-38f5-4268-8f68-8f65141b6cbf">
       <ID>Out R2k</ID>
       <Name>Out R2k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ec10e82d-0ba1-4168-aec9-a3e7b3ac717b">
+        <KeyColumn dwd:design-time-name="1a02af69-a5c1-4c83-a7b8-ce9c801cd865">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="04f522ee-dc60-4164-b372-77f3e1eb3d11">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="be3188aa-16cc-4b2b-99ec-ca7f9b0f20e1">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_R2k</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
     </Column>
-    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="755c4d97-2a86-4583-9a2c-7da2c5129c81">
+    <Column xsi:type="ScalarMiningStructureColumn" dwd:design-time-name="d8638c96-5852-41e5-b0c5-40d6609c17ea">
       <ID>Out R1k</ID>
       <Name>Out R1k</Name>
       <Type>Long</Type>
       <Content>Continuous</Content>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0a076d10-e0f6-43d3-9f54-c82808256fc2">
+        <KeyColumn dwd:design-time-name="73ba47ab-a9f0-4095-81fa-82d26b833eef">
           <DataType>Integer</DataType>
           <DataSize>-1</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="200668a6-62bf-4ce8-8936-4ee4984e8dba">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="642944cd-7a32-45e0-bce3-1cbd05e81852">
             <TableID>dbo_OHLData</TableID>
             <ColumnID>Out_R1k</ColumnID>
           </Source>
@@ -719,46 +719,41 @@
     </Column>
   </Columns>
   <MiningModels>
-    <MiningModel dwd:design-time-name="cd50c575-c975-49b0-82d3-2243dcdb1492">
-      <ID>OHL Data 1</ID>
-      <Name>OHL Data 1</Name>
+    <MiningModel dwd:design-time-name="50d29758-2235-49b3-84a8-551f27bf5d65">
+      <ID>OHL Data 1 1</ID>
+      <Name>OHL Data 1 1</Name>
       <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
       <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
       <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Algorithm>Microsoft_Decision_Trees</Algorithm>
       <Columns>
-        <Column dwd:design-time-name="3bd6f7ba-6a0c-476c-9ebe-0f0524f0e399">
+        <Column dwd:design-time-name="cf320fba-c0d0-434e-a75a-9250e7b4ce9f">
           <ID>Age Group</ID>
           <Name>Age Group</Name>
           <SourceColumnID>Age Group</SourceColumnID>
         </Column>
-        <Column dwd:design-time-name="322b74b7-b612-4570-b38e-ed921bc84db3">
+        <Column dwd:design-time-name="54df527a-a0da-4e0d-aef5-bd344c55c38b">
           <ID>Aid Name</ID>
           <Name>Aid Name</Name>
           <SourceColumnID>Aid Name</SourceColumnID>
         </Column>
-        <Column dwd:design-time-name="b81dfd02-bc65-49b9-8017-4ceb4d40da86">
+        <Column dwd:design-time-name="19a4823a-76b1-423c-8eed-61cd8a3d3c9f">
           <ID>Aid Shape</ID>
           <Name>Aid Shape</Name>
           <SourceColumnID>Aid Shape</SourceColumnID>
         </Column>
-        <Column dwd:design-time-name="c9c6be7b-0828-4939-bf67-456ee53120c0">
+        <Column dwd:design-time-name="5f95cb51-925c-4fb1-a3af-c1d7feac1a2b">
           <ID>Brand</ID>
           <Name>Brand</Name>
           <SourceColumnID>Brand</SourceColumnID>
         </Column>
-        <Column dwd:design-time-name="386d6fb5-62bf-4dcf-bb14-611264ccdc57">
-          <ID>Fitting Formula</ID>
-          <Name>Fitting Formula</Name>
-          <SourceColumnID>Fitting Formula</SourceColumnID>
-        </Column>
-        <Column dwd:design-time-name="597e1683-20df-4e81-bf3d-4318605404b2">
+        <Column dwd:design-time-name="5c1026dd-e4b1-4fda-95d2-d31c345adf1b">
           <ID>Gender</ID>
           <Name>Gender</Name>
           <SourceColumnID>Gender</SourceColumnID>
         </Column>
-        <Column dwd:design-time-name="acb09e24-02bc-479c-b81d-c1e59791038b">
+        <Column dwd:design-time-name="9248f1c3-5e60-4331-83a8-c6c65758669f">
           <ID>L1k</ID>
           <Name>L1k</Name>
           <SourceColumnID>L1k</SourceColumnID>
@@ -766,7 +761,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="a07736a5-33ca-4884-b18c-e6461bd1c14a">
+        <Column dwd:design-time-name="d5671c33-26f1-4d69-8403-1da3415e55e0">
           <ID>L2k</ID>
           <Name>L2k</Name>
           <SourceColumnID>L2k</SourceColumnID>
@@ -774,7 +769,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="017b88cc-ddf5-4e3a-8d04-e827bd7ef60e">
+        <Column dwd:design-time-name="7493f0b8-c9b8-489a-ad99-8c617341a1ed">
           <ID>L3k</ID>
           <Name>L3k</Name>
           <SourceColumnID>L3k</SourceColumnID>
@@ -782,7 +777,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="f5ce5b92-f63f-4963-a9fa-48901c3302e2">
+        <Column dwd:design-time-name="348bbae7-7283-4016-aea6-bea4bf099f3a">
           <ID>L4k</ID>
           <Name>L4k</Name>
           <SourceColumnID>L4k</SourceColumnID>
@@ -790,7 +785,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="064364cc-3d7d-445e-879a-00a6299e80d1">
+        <Column dwd:design-time-name="18c108b6-47bc-4395-9f5b-5e346206d9de">
           <ID>L500</ID>
           <Name>L500</Name>
           <SourceColumnID>L500</SourceColumnID>
@@ -798,7 +793,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="6e6fe575-b620-4e25-af88-3eb81f49cc19">
+        <Column dwd:design-time-name="c2a94237-4507-4c26-a523-1a07de8fcf1c">
           <ID>L6k</ID>
           <Name>L6k</Name>
           <SourceColumnID>L6k</SourceColumnID>
@@ -806,7 +801,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="7ce7c306-43a7-4a7a-93d7-ac59780e42e5">
+        <Column dwd:design-time-name="2fee185f-75ac-406a-90af-35fb895cb0fb">
           <ID>L8k</ID>
           <Name>L8k</Name>
           <SourceColumnID>L8k</SourceColumnID>
@@ -814,23 +809,23 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="d6bc77b7-b37a-4ce0-8abc-8685a958f659">
+        <Column dwd:design-time-name="3842a6f6-8fc2-4fbd-b0b4-2c9228950136">
           <ID>Naics Desc</ID>
           <Name>Naics Desc</Name>
           <SourceColumnID>Naics Desc</SourceColumnID>
         </Column>
-        <Column dwd:design-time-name="1c8ddaf6-7d59-4319-a63a-4367ccebd99c">
+        <Column dwd:design-time-name="9d79f7d9-97cb-4e7e-a6ba-d35e3f85d23f">
           <ID>Number Of Channels</ID>
           <Name>Number Of Channels</Name>
           <SourceColumnID>Number Of Channels</SourceColumnID>
         </Column>
-        <Column dwd:design-time-name="b4650ae8-0911-4ad9-b58b-48b6ef00dcd4">
+        <Column dwd:design-time-name="18c96f61-04f7-4461-8b18-ece6ccad4543">
           <ID>OHL Data ID</ID>
           <Name>OHL Data ID</Name>
           <SourceColumnID>OHL Data ID</SourceColumnID>
           <Usage>Key</Usage>
         </Column>
-        <Column dwd:design-time-name="2dc810fa-b357-4f98-b53b-d683b89abeb0">
+        <Column dwd:design-time-name="ec36f180-e23e-4b24-b0b1-60990d5bc0af">
           <ID>R1k</ID>
           <Name>R1k</Name>
           <SourceColumnID>R1k</SourceColumnID>
@@ -838,7 +833,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="3cecd291-1ae8-40e6-88cd-eb32e9ec1200">
+        <Column dwd:design-time-name="6017c92e-d053-4695-839d-9998441ba68a">
           <ID>R2k</ID>
           <Name>R2k</Name>
           <SourceColumnID>R2k</SourceColumnID>
@@ -846,7 +841,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="68a20b45-5a86-4161-aa03-f1d7d67c4459">
+        <Column dwd:design-time-name="977f3006-3f0c-4705-bcb4-1871efc40ec2">
           <ID>R3k</ID>
           <Name>R3k</Name>
           <SourceColumnID>R3k</SourceColumnID>
@@ -854,7 +849,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="08fac5ad-d32e-49c3-b5c0-01c506d4f217">
+        <Column dwd:design-time-name="3e9b7c25-6b38-41ff-a7af-cc24638b15fc">
           <ID>R4k</ID>
           <Name>R4k</Name>
           <SourceColumnID>R4k</SourceColumnID>
@@ -862,7 +857,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="54234c54-e5b9-4d2a-b9a2-14eb62ea4580">
+        <Column dwd:design-time-name="b6afbaf5-283a-4be5-af6d-674e81a0447b">
           <ID>R500</ID>
           <Name>R500</Name>
           <SourceColumnID>R500</SourceColumnID>
@@ -870,7 +865,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="1ac6b1fc-0f23-4373-8239-45e65282a16f">
+        <Column dwd:design-time-name="d8252548-2219-46ef-a784-c2aaf8b2edb7">
           <ID>R6k</ID>
           <Name>R6k</Name>
           <SourceColumnID>R6k</SourceColumnID>
@@ -878,7 +873,7 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="40bc4173-763c-4aeb-baea-4c170c2aede3">
+        <Column dwd:design-time-name="df6b7724-bea5-4eaa-a581-3e28956fd297">
           <ID>R8k</ID>
           <Name>R8k</Name>
           <SourceColumnID>R8k</SourceColumnID>
@@ -886,15 +881,99 @@
             <ModelingFlag>REGRESSOR</ModelingFlag>
           </ModelingFlags>
         </Column>
-        <Column dwd:design-time-name="22fd9750-00f7-47a4-9dc3-133f3de7d047">
+        <Column dwd:design-time-name="e5f8fd90-9b00-409e-b537-656dfb4d67d9">
           <ID>Region</ID>
           <Name>Region</Name>
           <SourceColumnID>Region</SourceColumnID>
         </Column>
-        <Column dwd:design-time-name="238a22e0-2dbb-455d-8851-d302f430e0d9">
+        <Column dwd:design-time-name="2df7f441-6914-4a8f-b628-e3c6dc77be9b">
           <ID>Out R8k</ID>
           <Name>Out R8k</Name>
           <SourceColumnID>Out R8k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="e0ffe345-23b4-4e50-94ce-365b8bfbfaf8">
+          <ID>Out L1k</ID>
+          <Name>Out L1k</Name>
+          <SourceColumnID>Out L1k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="f2d8c8a6-ed3d-4556-9579-1d4d6655002e">
+          <ID>Out L2k</ID>
+          <Name>Out L2k</Name>
+          <SourceColumnID>Out L2k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="b0866e11-b3de-4352-871c-da409f0d95c5">
+          <ID>Out L3k</ID>
+          <Name>Out L3k</Name>
+          <SourceColumnID>Out L3k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="e2b3b3d0-d340-41ab-b6e0-b08e6e3f4005">
+          <ID>Out L4k</ID>
+          <Name>Out L4k</Name>
+          <SourceColumnID>Out L4k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="df830421-8f18-4980-9140-5052b604124c">
+          <ID>Out L500</ID>
+          <Name>Out L500</Name>
+          <SourceColumnID>Out L500</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="d3eb9a88-cddf-45f9-84a7-43051e97ece8">
+          <ID>Out L6k</ID>
+          <Name>Out L6k</Name>
+          <SourceColumnID>Out L6k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="03bb2650-c69c-457f-8159-e2287992409c">
+          <ID>Out L8k</ID>
+          <Name>Out L8k</Name>
+          <SourceColumnID>Out L8k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="99d8e155-ebb3-497e-ba13-ea85230b4a1f">
+          <ID>Out R1k</ID>
+          <Name>Out R1k</Name>
+          <SourceColumnID>Out R1k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="e77f4017-7d51-47e7-92b9-dfd4f03d022e">
+          <ID>Out R2k</ID>
+          <Name>Out R2k</Name>
+          <SourceColumnID>Out R2k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="c0568e35-900c-49bd-862b-a829f6c64a00">
+          <ID>Out R3k</ID>
+          <Name>Out R3k</Name>
+          <SourceColumnID>Out R3k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="6ce0c272-cde8-4de8-a243-15afc4ca4303">
+          <ID>Out R4k</ID>
+          <Name>Out R4k</Name>
+          <SourceColumnID>Out R4k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="65822d04-c8e3-423d-99c4-488fb759a726">
+          <ID>Out R500</ID>
+          <Name>Out R500</Name>
+          <SourceColumnID>Out R500</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="f0500f2d-794a-4a4a-9e01-bb306427f5bd">
+          <ID>Out R6k</ID>
+          <Name>Out R6k</Name>
+          <SourceColumnID>Out R6k</SourceColumnID>
+          <Usage>PredictOnly</Usage>
+        </Column>
+        <Column dwd:design-time-name="aeed56d8-1824-4a40-8ce6-5f6a5d6067cf">
+          <ID>Fitting Formula</ID>
+          <Name>Fitting Formula</Name>
+          <SourceColumnID>Fitting Formula</SourceColumnID>
           <Usage>PredictOnly</Usage>
         </Column>
       </Columns>
