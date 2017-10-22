@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DataMining-HearingAids", "DataMining-HearingAids\DataMining-HearingAids.dwproj", "{FDF5F72E-4067-41F5-86FA-3DC464520224}"
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "DataMining", "DataMining\DataMining.dwproj", "{FDF5F72E-4067-41F5-86FA-3DC464520224}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "DataGenerator", "DataGenerator\DataGenerator.pyproj", "{9B8E1984-7575-4F5A-B633-62B4E47B244A}"
 EndProject
