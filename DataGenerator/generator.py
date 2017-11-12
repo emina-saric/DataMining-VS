@@ -5,10 +5,11 @@ import random
 
 from HearingAidBDO import HearingAidBDO
 
+serverName = "EMINA-PC"
 
 def generate_ha_shapes():
     shapes = ["rite", "mini-bte", "bte", "ric", "cic", "ite", "itc"]
-    conn = pymssql.connect(server='MED-PC037', user='sa', password='19Zeljo21', database='ohl_data')
+    conn = pymssql.connect(server=serverName, user='sa', password='19Zeljo21', database='ohl_data')
     cursor = conn.cursor()
     cursor.execute("SELECT COUNT(*) FROM OHLData")
     max_ohl_id = cursor.fetchone()
@@ -30,7 +31,7 @@ def generate_ha_shapes():
 
 def generate_algorithm_types():
     types = ["linear", "NAL-NL1", "NAL-NL2", "DSP5", "proprietary"]
-    conn = pymssql.connect(server='MED-PC037', user='sa', password='19Zeljo21', database='ohl_data')
+    conn = pymssql.connect(server=serverName, user='sa', password='19Zeljo21', database='ohl_data')
     cursor = conn.cursor()
     cursor.execute("SELECT COUNT(*) FROM OHLData")
     max_ohl_id = cursor.fetchone()
@@ -52,7 +53,7 @@ def generate_algorithm_types():
 
 def generate_numbers_of_channels():
     channels = [8, 12, 16, 20]
-    conn = pymssql.connect(server='MED-PC037', user='sa', password='19Zeljo21', database='ohl_data')
+    conn = pymssql.connect(server=serverName, user='sa', password='19Zeljo21', database='ohl_data')
     cursor = conn.cursor()
     cursor.execute("SELECT COUNT(*) FROM OHLData")
     max_ohl_id = cursor.fetchone()
@@ -80,7 +81,7 @@ def generate_aid_names():
 
     ha_data = HearingAidBDO()
     no_of_brands = len(ha_data.brands)
-    conn = pymssql.connect(server='MED-PC037', user='sa', password='19Zeljo21', database='ohl_data')
+    conn = pymssql.connect(server=serverName, user='sa', password='19Zeljo21', database='ohl_data')
     cursor = conn.cursor()
     cursor.execute("SELECT COUNT(*) FROM OHLData")
     max_ohl_id = cursor.fetchone()
@@ -105,9 +106,17 @@ def generate_aid_names():
     conn.close()
     return
 
+def generate_earmolds():
+    conn = pymssql.connect(server=serverName, user='sa', password='19Zeljo21', database='ohl_data')
+    cursor = conn.cursor()
+    cursor.execute("SELECT * FROM OliveType")
+    test = cursor.fetchone()
+    conn.close()
+    return
 
 logging.basicConfig(level=logging.INFO)
 # generate_ha_shapes()
 # generate_algorithm_types()
 # generate_numbers_of_channels()
-generate_aid_names()
+# generate_aid_names()
+generate_earmolds()
