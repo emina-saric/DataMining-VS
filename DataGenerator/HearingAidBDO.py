@@ -1,5 +1,5 @@
 class HearingAidBDO:
-    brands = ["Oticon", "Phonak", "Unitron", "Widex", "Starkey", "Signia", "Siemens", "Resound", "Beltone"]
+    brands = ["Phonak", "Unitron", "Widex", "Starkey", "Signia", "Siemens", "Resound", "Beltone"]
     names = [["Nera", "Alta", "Nera2", "Alta2", "Opn"],
              ["Naida Q", "Audeo V", "Virto V", "Bolero S"],
              ["Moxi", "Stride", "Shine Rev", "Max"],

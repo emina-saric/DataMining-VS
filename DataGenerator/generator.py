@@ -1,11 +1,10 @@
-# Python 3
 import logging
 import pymssql
 import random
 
 from HearingAidBDO import HearingAidBDO
 
-serverName = "EMINA-PC"
+serverName = "localhost"
 
 def generate_ha_shapes():
     shapes = ["rite", "mini-bte", "bte", "ric", "cic", "ite", "itc"]
@@ -114,9 +113,24 @@ def generate_earmolds():
     conn.close()
     return
 
+def insert_names():
+    ha_data = HearingAidBDO()
+    conn = pymssql.connect(server=serverName, user='sa', password='19Zeljo21', database='ohl_data')
+    cursor = conn.cursor()
+    for i in range(len(ha_data.brands)):
+        for j in range(1,len(ha_data.names[i])):
+            query = """insert into AidName values ('{0}',{1})""".format(ha_data.names[i][j],i)
+            logging.info(query)
+            cursor.execute(query)
+    conn.commit()        
+    conn.close()
+    return
+
+
 logging.basicConfig(level=logging.INFO)
+insert_names()
 # generate_ha_shapes()
 # generate_algorithm_types()
 # generate_numbers_of_channels()
 # generate_aid_names()
-generate_earmolds()
+# generate_earmolds()

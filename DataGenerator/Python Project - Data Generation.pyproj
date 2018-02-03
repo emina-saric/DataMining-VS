@@ -24,7 +24,6 @@
     <Compile Include="HearingAidBDO.py" />
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|ContinuumAnalytics|Anaconda36-64" />
     <InterpreterReference Include="Global|VisualStudio|Anaconda py35" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
