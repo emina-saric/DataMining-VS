@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Microsoft BI Project - DataMining", "DataMining\Microsoft BI Project - DataMining.dwproj", "{FDF5F72E-4067-41F5-86FA-3DC464520224}"
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python Project - Data Generation", "DataGenerator\Python Project - Data Generation.pyproj", "{9B8E1984-7575-4F5A-B633-62B4E47B244A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp Project - Data Generation", "CSharp Project - Data Generation\CSharp Project - Data Generation.csproj", "{02AC799C-D3F7-453F-B59D-A25719A49D70}"
+EndProject
+Project("{DA7A21FA-8162-4350-AD77-A8D1B671F3ED}") = "R Project", "R Project\R Project.rxproj", "{6BFA22FF-292B-433C-BD7D-0F466BA74087}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +30,18 @@ Global
 		{9B8E1984-7575-4F5A-B633-62B4E47B244A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B8E1984-7575-4F5A-B633-62B4E47B244A}.Development|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B8E1984-7575-4F5A-B633-62B4E47B244A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AC799C-D3F7-453F-B59D-A25719A49D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AC799C-D3F7-453F-B59D-A25719A49D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02AC799C-D3F7-453F-B59D-A25719A49D70}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{02AC799C-D3F7-453F-B59D-A25719A49D70}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{02AC799C-D3F7-453F-B59D-A25719A49D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02AC799C-D3F7-453F-B59D-A25719A49D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BFA22FF-292B-433C-BD7D-0F466BA74087}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFA22FF-292B-433C-BD7D-0F466BA74087}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BFA22FF-292B-433C-BD7D-0F466BA74087}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BFA22FF-292B-433C-BD7D-0F466BA74087}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{6BFA22FF-292B-433C-BD7D-0F466BA74087}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BFA22FF-292B-433C-BD7D-0F466BA74087}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
